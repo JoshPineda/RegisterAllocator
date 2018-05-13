@@ -123,7 +123,7 @@ vardcl	: idlist ':' type   {
                         if ($3.arraysize != 0)
                         {
                             
-                            
+			    /*This is an array and we give it a size*/                            
                             ste -> sora = 1;
                             ste -> arraysize = $3.arraysize;
                             
