@@ -58,7 +58,9 @@ program : {emitComment("Assign STATIC_AREA_ADDRESS to register \"r0\"");
 block	: variables cmpdstmt { }
 	;
     
-variables: /* empty */
+variables: 
+	 /* Heres some commenting*/
+	 /* empty */
 	| VAR vardcls { }
 	;
     
